@@ -87,7 +87,7 @@ public class JobData {
     }
 
 
-    private static JobField getFieldByType(Job job, JobFieldType type) {
+    public static JobField getFieldByType(Job job, JobFieldType type) {
         switch(type) {
             case EMPLOYER:
                 return job.getEmployer();
